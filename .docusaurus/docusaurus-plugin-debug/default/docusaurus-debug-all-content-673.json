@@ -1,0 +1,467 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/ntp-payment-api-doc/docs",
+          "tagsPath": "/ntp-payment-api-doc/docs/tags",
+          "versionEditUrl": "https://github.com/navid59/ntp-payment-api-doc/docs",
+          "versionEditUrlLocalized": "https://github.com/navid59/ntp-payment-api-doc/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionBanner": null,
+          "versionBadge": false,
+          "versionClassName": "docs-version-current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/var/www/html/Docusaurus/PaymentApi/sidebars.js",
+          "contentPath": "/var/www/html/Docusaurus/PaymentApi/docs",
+          "contentPathLocalized": "/var/www/html/Docusaurus/PaymentApi/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "authorize/authorize-query-parameters",
+              "id": "authorize/authorize-query-parameters",
+              "title": "Query parameters",
+              "description": "-   paReq : The Request Token. Returned token is generated from Start Section",
+              "source": "@site/docs/authorize/authorize-query-parameters.md",
+              "sourceDirName": "authorize",
+              "slug": "/authorize/authorize-query-parameters",
+              "permalink": "/ntp-payment-api-doc/docs/authorize/authorize-query-parameters",
+              "editUrl": "https://github.com/navid59/ntp-payment-api-doc/docs/authorize/authorize-query-parameters.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Authorize a payment",
+                "permalink": "/ntp-payment-api-doc/docs/authorize/authorize-strc"
+              },
+              "next": {
+                "title": "Authorize response",
+                "permalink": "/ntp-payment-api-doc/docs/authorize/authorize-response"
+              }
+            },
+            {
+              "unversionedId": "authorize/authorize-response",
+              "id": "authorize/authorize-response",
+              "title": "Authorize response",
+              "description": "When bank recive the request, will autorize the payment then will send you the result of authorization.",
+              "source": "@site/docs/authorize/authorize-response.md",
+              "sourceDirName": "authorize",
+              "slug": "/authorize/authorize-response",
+              "permalink": "/ntp-payment-api-doc/docs/authorize/authorize-response",
+              "editUrl": "https://github.com/navid59/ntp-payment-api-doc/docs/authorize/authorize-response.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Query parameters",
+                "permalink": "/ntp-payment-api-doc/docs/authorize/authorize-query-parameters"
+              },
+              "next": {
+                "title": "Verify-auth a payment",
+                "permalink": "/ntp-payment-api-doc/docs/verify-auth/verify-auth-strc"
+              }
+            },
+            {
+              "unversionedId": "authorize/authorize-strc",
+              "id": "authorize/authorize-strc",
+              "title": "Authorize a payment",
+              "description": "Authorize end-point use only for the transactions with 3DS cards.",
+              "source": "@site/docs/authorize/authorize-strc.md",
+              "sourceDirName": "authorize",
+              "slug": "/authorize/authorize-strc",
+              "permalink": "/ntp-payment-api-doc/docs/authorize/authorize-strc",
+              "editUrl": "https://github.com/navid59/ntp-payment-api-doc/docs/authorize/authorize-strc.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Errors & Statuses",
+                "permalink": "/ntp-payment-api-doc/docs/start/start-Error"
+              },
+              "next": {
+                "title": "Query parameters",
+                "permalink": "/ntp-payment-api-doc/docs/authorize/authorize-query-parameters"
+              }
+            },
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "title": "Introduction",
+              "description": "The Payments API , was designed and implemented by NETOPIA Payments development team to be used in third party applications to cover the payments process.",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/ntp-payment-api-doc/docs/intro",
+              "editUrl": "https://github.com/navid59/ntp-payment-api-doc/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Getting start a payment",
+                "permalink": "/ntp-payment-api-doc/docs/start/start-strc"
+              }
+            },
+            {
+              "unversionedId": "start/start-Error",
+              "id": "start/start-Error",
+              "title": "Errors & Statuses",
+              "description": "Error codes",
+              "source": "@site/docs/start/start-Error.md",
+              "sourceDirName": "start",
+              "slug": "/start/start-Error",
+              "permalink": "/ntp-payment-api-doc/docs/start/start-Error",
+              "editUrl": "https://github.com/navid59/ntp-payment-api-doc/docs/start/start-Error.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Start response example",
+                "permalink": "/ntp-payment-api-doc/docs/start/start-ex-response"
+              },
+              "next": {
+                "title": "Authorize a payment",
+                "permalink": "/ntp-payment-api-doc/docs/authorize/authorize-strc"
+              }
+            },
+            {
+              "unversionedId": "start/start-ex-response",
+              "id": "start/start-ex-response",
+              "title": "Start response example",
+              "description": "Example of start payment response",
+              "source": "@site/docs/start/start-ex-response.md",
+              "sourceDirName": "start",
+              "slug": "/start/start-ex-response",
+              "permalink": "/ntp-payment-api-doc/docs/start/start-ex-response",
+              "editUrl": "https://github.com/navid59/ntp-payment-api-doc/docs/start/start-ex-response.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Start payment request example",
+                "permalink": "/ntp-payment-api-doc/docs/start/start-payment-ex"
+              },
+              "next": {
+                "title": "Errors & Statuses",
+                "permalink": "/ntp-payment-api-doc/docs/start/start-Error"
+              }
+            },
+            {
+              "unversionedId": "start/start-payment-ex",
+              "id": "start/start-payment-ex",
+              "title": "Start payment request example",
+              "description": "",
+              "source": "@site/docs/start/start-payment-ex.md",
+              "sourceDirName": "start",
+              "slug": "/start/start-payment-ex",
+              "permalink": "/ntp-payment-api-doc/docs/start/start-payment-ex",
+              "editUrl": "https://github.com/navid59/ntp-payment-api-doc/docs/start/start-payment-ex.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Query parameters",
+                "permalink": "/ntp-payment-api-doc/docs/start/start-query-parameters"
+              },
+              "next": {
+                "title": "Start response example",
+                "permalink": "/ntp-payment-api-doc/docs/start/start-ex-response"
+              }
+            },
+            {
+              "unversionedId": "start/start-query-parameters",
+              "id": "start/start-query-parameters",
+              "title": "Query parameters",
+              "description": "The start end-point has three main section.",
+              "source": "@site/docs/start/start-query-parameters.md",
+              "sourceDirName": "start",
+              "slug": "/start/start-query-parameters",
+              "permalink": "/ntp-payment-api-doc/docs/start/start-query-parameters",
+              "editUrl": "https://github.com/navid59/ntp-payment-api-doc/docs/start/start-query-parameters.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Getting start a payment",
+                "permalink": "/ntp-payment-api-doc/docs/start/start-strc"
+              },
+              "next": {
+                "title": "Start payment request example",
+                "permalink": "/ntp-payment-api-doc/docs/start/start-payment-ex"
+              }
+            },
+            {
+              "unversionedId": "start/start-strc",
+              "id": "start/start-strc",
+              "title": "Getting start a payment",
+              "description": "To getting start a new payment, the process will start from start end-point.",
+              "source": "@site/docs/start/start-strc.md",
+              "sourceDirName": "start",
+              "slug": "/start/start-strc",
+              "permalink": "/ntp-payment-api-doc/docs/start/start-strc",
+              "editUrl": "https://github.com/navid59/ntp-payment-api-doc/docs/start/start-strc.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/ntp-payment-api-doc/docs/intro"
+              },
+              "next": {
+                "title": "Query parameters",
+                "permalink": "/ntp-payment-api-doc/docs/start/start-query-parameters"
+              }
+            },
+            {
+              "unversionedId": "verify-auth/verify-auth-ex",
+              "id": "verify-auth/verify-auth-ex",
+              "title": "Verify-auth request example",
+              "description": "",
+              "source": "@site/docs/verify-auth/verify-auth-ex.md",
+              "sourceDirName": "verify-auth",
+              "slug": "/verify-auth/verify-auth-ex",
+              "permalink": "/ntp-payment-api-doc/docs/verify-auth/verify-auth-ex",
+              "editUrl": "https://github.com/navid59/ntp-payment-api-doc/docs/verify-auth/verify-auth-ex.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Query parameters",
+                "permalink": "/ntp-payment-api-doc/docs/verify-auth/verify-auth-query-parameters"
+              },
+              "next": {
+                "title": "Verify-auth response example",
+                "permalink": "/ntp-payment-api-doc/docs/verify-auth/verify-auth-response-ex"
+              }
+            },
+            {
+              "unversionedId": "verify-auth/verify-auth-query-parameters",
+              "id": "verify-auth/verify-auth-query-parameters",
+              "title": "Query parameters",
+              "description": "-   authenticationToken : the authenticationToken . You have the token from start end-point",
+              "source": "@site/docs/verify-auth/verify-auth-query-parameters.md",
+              "sourceDirName": "verify-auth",
+              "slug": "/verify-auth/verify-auth-query-parameters",
+              "permalink": "/ntp-payment-api-doc/docs/verify-auth/verify-auth-query-parameters",
+              "editUrl": "https://github.com/navid59/ntp-payment-api-doc/docs/verify-auth/verify-auth-query-parameters.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Verify-auth a payment",
+                "permalink": "/ntp-payment-api-doc/docs/verify-auth/verify-auth-strc"
+              },
+              "next": {
+                "title": "Verify-auth request example",
+                "permalink": "/ntp-payment-api-doc/docs/verify-auth/verify-auth-ex"
+              }
+            },
+            {
+              "unversionedId": "verify-auth/verify-auth-response-ex",
+              "id": "verify-auth/verify-auth-response-ex",
+              "title": "Verify-auth response example",
+              "description": "Success ex.",
+              "source": "@site/docs/verify-auth/verify-auth-response-ex.md",
+              "sourceDirName": "verify-auth",
+              "slug": "/verify-auth/verify-auth-response-ex",
+              "permalink": "/ntp-payment-api-doc/docs/verify-auth/verify-auth-response-ex",
+              "editUrl": "https://github.com/navid59/ntp-payment-api-doc/docs/verify-auth/verify-auth-response-ex.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Verify-auth request example",
+                "permalink": "/ntp-payment-api-doc/docs/verify-auth/verify-auth-ex"
+              }
+            },
+            {
+              "unversionedId": "verify-auth/verify-auth-strc",
+              "id": "verify-auth/verify-auth-strc",
+              "title": "Verify-auth a payment",
+              "description": "Verify-auth end-point also use only for the transactions with 3DS cards and after you have authorize end-point response.",
+              "source": "@site/docs/verify-auth/verify-auth-strc.md",
+              "sourceDirName": "verify-auth",
+              "slug": "/verify-auth/verify-auth-strc",
+              "permalink": "/ntp-payment-api-doc/docs/verify-auth/verify-auth-strc",
+              "editUrl": "https://github.com/navid59/ntp-payment-api-doc/docs/verify-auth/verify-auth-strc.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Authorize response",
+                "permalink": "/ntp-payment-api-doc/docs/authorize/authorize-response"
+              },
+              "next": {
+                "title": "Query parameters",
+                "permalink": "/ntp-payment-api-doc/docs/verify-auth/verify-auth-query-parameters"
+              }
+            }
+          ],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "Payment Start",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "start/start-strc"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "start/start-query-parameters"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "start/start-payment-ex"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "start/start-ex-response"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "start/start-Error"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Payment Authorize",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "authorize/authorize-strc"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "authorize/authorize-query-parameters"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "authorize/authorize-response"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Payment verify-auth",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "verify-auth/verify-auth-strc"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "verify-auth/verify-auth-query-parameters"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "verify-auth/verify-auth-ex"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "verify-auth/verify-auth-response-ex"
+                  }
+                ]
+              }
+            ]
+          },
+          "mainDocId": "intro",
+          "categoryGeneratedIndices": []
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [],
+      "blogListPaginated": [],
+      "blogTags": {},
+      "blogTagsListPath": null
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/ntp-payment-api-doc/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/ntp-payment-api-doc/markdown-page",
+        "source": "@site/src/pages/markdown-page.md"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "start/start-Error",
+  "id": "start/start-Error",
+  "title": "Errors & Statuses",
+  "description": "Error codes",
+  "source": "@site/docs/start/start-Error.md",
+  "sourceDirName": "start",
+  "slug": "/start/start-Error",
+  "permalink": "/ntp-payment-api-doc/docs/start/start-Error",
+  "editUrl": "https://github.com/navid59/ntp-payment-api-doc/docs/start/start-Error.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Start response example",
+    "permalink": "/ntp-payment-api-doc/docs/start/start-ex-response"
+  },
+  "next": {
+    "title": "Authorize a payment",
+    "permalink": "/ntp-payment-api-doc/docs/authorize/authorize-strc"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "unversionedId": "authorize/start-Error",
+  "id": "authorize/start-Error",
+  "title": "Errors & Statuses",
+  "description": "Error codes",
+  "source": "@site/docs/authorize/start-Error.md",
+  "sourceDirName": "authorize",
+  "slug": "/authorize/start-Error",
+  "permalink": "/docs/authorize/start-Error",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/authorize/start-Error.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "start-ex-response",
+    "permalink": "/docs/authorize/start-ex-response"
+  }
+}

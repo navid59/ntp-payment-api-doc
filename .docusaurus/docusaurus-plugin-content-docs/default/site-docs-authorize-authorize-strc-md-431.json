@@ -1,0 +1,26 @@
+{
+  "unversionedId": "authorize/authorize-strc",
+  "id": "authorize/authorize-strc",
+  "title": "Authorize a payment",
+  "description": "Authorize end-point use only for the transactions with 3DS cards.",
+  "source": "@site/docs/authorize/authorize-strc.md",
+  "sourceDirName": "authorize",
+  "slug": "/authorize/authorize-strc",
+  "permalink": "/ntp-payment-api-doc/docs/authorize/authorize-strc",
+  "editUrl": "https://github.com/navid59/ntp-payment-api-doc/docs/authorize/authorize-strc.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Errors & Statuses",
+    "permalink": "/ntp-payment-api-doc/docs/start/start-Error"
+  },
+  "next": {
+    "title": "Query parameters",
+    "permalink": "/ntp-payment-api-doc/docs/authorize/authorize-query-parameters"
+  }
+}

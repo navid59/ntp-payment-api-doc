@@ -1,0 +1,26 @@
+{
+  "unversionedId": "subscription-management/unsubscription",
+  "id": "subscription-management/unsubscription",
+  "title": "Unsubscription",
+  "description": "Any time is possible to unsubscription an existence subscription.",
+  "source": "@site/docs/subscription-management/unsubscription.md",
+  "sourceDirName": "subscription-management",
+  "slug": "/subscription-management/unsubscription",
+  "permalink": "/docs/subscription-management/unsubscription",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/subscription-management/unsubscription.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create a new Subscription",
+    "permalink": "/docs/subscription-management/subscription"
+  },
+  "next": {
+    "title": "Get list of subscription",
+    "permalink": "/docs/subscription-management/subscription-list"
+  }
+}

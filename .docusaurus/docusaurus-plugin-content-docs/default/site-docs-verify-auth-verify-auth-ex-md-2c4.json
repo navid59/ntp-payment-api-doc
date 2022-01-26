@@ -1,0 +1,26 @@
+{
+  "unversionedId": "verify-auth/verify-auth-ex",
+  "id": "verify-auth/verify-auth-ex",
+  "title": "Verify-auth request example",
+  "description": "",
+  "source": "@site/docs/verify-auth/verify-auth-ex.md",
+  "sourceDirName": "verify-auth",
+  "slug": "/verify-auth/verify-auth-ex",
+  "permalink": "/ntp-payment-api-doc/docs/verify-auth/verify-auth-ex",
+  "editUrl": "https://github.com/navid59/ntp-payment-api-doc/docs/verify-auth/verify-auth-ex.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Query parameters",
+    "permalink": "/ntp-payment-api-doc/docs/verify-auth/verify-auth-query-parameters"
+  },
+  "next": {
+    "title": "Verify-auth response example",
+    "permalink": "/ntp-payment-api-doc/docs/verify-auth/verify-auth-response-ex"
+  }
+}

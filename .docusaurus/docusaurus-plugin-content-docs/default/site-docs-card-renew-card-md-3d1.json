@@ -1,0 +1,26 @@
+{
+  "unversionedId": "card/renew-card",
+  "id": "card/renew-card",
+  "title": "Renew a Card",
+  "description": "Renew Card URL",
+  "source": "@site/docs/card/renew-card.md",
+  "sourceDirName": "card",
+  "slug": "/card/renew-card",
+  "permalink": "/docs/card/renew-card",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/card/renew-card.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Update a Card",
+    "permalink": "/docs/card/update-card"
+  },
+  "next": {
+    "title": "Payment history",
+    "permalink": "/docs/payments-report/payment-history"
+  }
+}

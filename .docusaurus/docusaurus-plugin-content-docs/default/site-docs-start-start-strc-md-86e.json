@@ -1,0 +1,26 @@
+{
+  "unversionedId": "start/start-strc",
+  "id": "start/start-strc",
+  "title": "Getting start a payment",
+  "description": "To getting start a new payment, the process will start from start end-point.",
+  "source": "@site/docs/start/start-strc.md",
+  "sourceDirName": "start",
+  "slug": "/start/start-strc",
+  "permalink": "/ntp-payment-api-doc/docs/start/start-strc",
+  "editUrl": "https://github.com/navid59/ntp-payment-api-doc/docs/start/start-strc.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/ntp-payment-api-doc/docs/intro"
+  },
+  "next": {
+    "title": "Query parameters",
+    "permalink": "/ntp-payment-api-doc/docs/start/start-query-parameters"
+  }
+}

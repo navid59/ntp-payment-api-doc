@@ -1,0 +1,26 @@
+{
+  "unversionedId": "plan-management/modify-a-plan",
+  "id": "plan-management/modify-a-plan",
+  "title": "Modify a plan",
+  "description": "Modify an existance plan is possible only & only if you already informed your subscription about the modification.",
+  "source": "@site/docs/plan-management/modify-a-plan.md",
+  "sourceDirName": "plan-management",
+  "slug": "/plan-management/modify-a-plan",
+  "permalink": "/docs/plan-management/modify-a-plan",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/plan-management/modify-a-plan.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Plan status / info",
+    "permalink": "/docs/plan-management/plan-status"
+  },
+  "next": {
+    "title": "Create a new Subscription",
+    "permalink": "/docs/subscription-management/subscription"
+  }
+}

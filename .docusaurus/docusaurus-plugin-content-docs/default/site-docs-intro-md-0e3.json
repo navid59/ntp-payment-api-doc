@@ -1,0 +1,22 @@
+{
+  "unversionedId": "intro",
+  "id": "intro",
+  "title": "Introduction",
+  "description": "The Payments API , was designed and implemented by NETOPIA Payments development team to be used in third party applications to cover the payments process.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/ntp-payment-api-doc/docs/intro",
+  "editUrl": "https://github.com/navid59/ntp-payment-api-doc/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Getting start a payment",
+    "permalink": "/ntp-payment-api-doc/docs/start/start-strc"
+  }
+}

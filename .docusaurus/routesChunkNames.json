@@ -1,0 +1,70 @@
+{
+  "/ntp-payment-api-doc/blog/archive-03d": {
+    "component": "9e4087bc",
+    "archive": "3beda70b"
+  },
+  "/ntp-payment-api-doc/markdown-page-99d": {
+    "component": "1f391b9e",
+    "content": "393be207"
+  },
+  "/ntp-payment-api-doc/docs-a8e": {
+    "component": "1be78505",
+    "versionMetadata": "935f2afb"
+  },
+  "/ntp-payment-api-doc/docs/authorize/authorize-query-parameters-052": {
+    "component": "17896441",
+    "content": "52874951"
+  },
+  "/ntp-payment-api-doc/docs/authorize/authorize-response-a49": {
+    "component": "17896441",
+    "content": "a403134e"
+  },
+  "/ntp-payment-api-doc/docs/authorize/authorize-strc-07c": {
+    "component": "17896441",
+    "content": "431f254d"
+  },
+  "/ntp-payment-api-doc/docs/intro-fb9": {
+    "component": "17896441",
+    "content": "0e384e19"
+  },
+  "/ntp-payment-api-doc/docs/start/start-Error-d56": {
+    "component": "17896441",
+    "content": "f075f55c"
+  },
+  "/ntp-payment-api-doc/docs/start/start-ex-response-857": {
+    "component": "17896441",
+    "content": "047a9419"
+  },
+  "/ntp-payment-api-doc/docs/start/start-payment-ex-635": {
+    "component": "17896441",
+    "content": "ba86fe8e"
+  },
+  "/ntp-payment-api-doc/docs/start/start-query-parameters-f2f": {
+    "component": "17896441",
+    "content": "56a65327"
+  },
+  "/ntp-payment-api-doc/docs/start/start-strc-0a9": {
+    "component": "17896441",
+    "content": "86eac280"
+  },
+  "/ntp-payment-api-doc/docs/verify-auth/verify-auth-ex-016": {
+    "component": "17896441",
+    "content": "2c42e517"
+  },
+  "/ntp-payment-api-doc/docs/verify-auth/verify-auth-query-parameters-d4f": {
+    "component": "17896441",
+    "content": "e21aef30"
+  },
+  "/ntp-payment-api-doc/docs/verify-auth/verify-auth-response-ex-99c": {
+    "component": "17896441",
+    "content": "d71b029c"
+  },
+  "/ntp-payment-api-doc/docs/verify-auth/verify-auth-strc-c27": {
+    "component": "17896441",
+    "content": "9052c949"
+  },
+  "/ntp-payment-api-doc/-70c": {
+    "component": "c4f5d8e4",
+    "config": "5e9f5e1a"
+  }
+}

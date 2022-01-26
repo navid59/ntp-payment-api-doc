@@ -1,0 +1,26 @@
+{
+  "unversionedId": "start (copy)/start-payment-ex",
+  "id": "start (copy)/start-payment-ex",
+  "title": "Start payment request example",
+  "description": "",
+  "source": "@site/docs/start (copy)/start-payment-ex.md",
+  "sourceDirName": "start (copy)",
+  "slug": "/start (copy)/start-payment-ex",
+  "permalink": "/docs/start (copy)/start-payment-ex",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/start (copy)/start-payment-ex.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Query parameters",
+    "permalink": "/docs/start (copy)/start-query-parameters"
+  },
+  "next": {
+    "title": "start-ex-response",
+    "permalink": "/docs/start (copy)/start-ex-response"
+  }
+}

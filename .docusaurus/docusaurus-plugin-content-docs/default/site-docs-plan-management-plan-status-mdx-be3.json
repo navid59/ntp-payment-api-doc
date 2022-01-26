@@ -1,0 +1,26 @@
+{
+  "unversionedId": "plan-management/plan-status",
+  "id": "plan-management/plan-status",
+  "title": "Plan status / info",
+  "description": "To get information of a specific plan",
+  "source": "@site/docs/plan-management/plan-status.mdx",
+  "sourceDirName": "plan-management",
+  "slug": "/plan-management/plan-status",
+  "permalink": "/docs/plan-management/plan-status",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/plan-management/plan-status.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Delete a plan",
+    "permalink": "/docs/plan-management/delete-a-plan"
+  },
+  "next": {
+    "title": "Modify a plan",
+    "permalink": "/docs/plan-management/modify-a-plan"
+  }
+}
