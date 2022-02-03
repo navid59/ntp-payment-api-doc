@@ -10,9 +10,9 @@
   "editUrl": "https://github.com/navid59/ntp-payment-api-doc/docs/start/start-ex-response.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 4,
+  "sidebarPosition": 3,
   "frontMatter": {
-    "sidebar_position": 4
+    "sidebar_position": 3
   },
   "sidebar": "tutorialSidebar",
   "previous": {

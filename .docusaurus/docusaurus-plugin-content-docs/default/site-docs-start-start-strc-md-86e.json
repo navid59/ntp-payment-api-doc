@@ -20,7 +20,7 @@
     "permalink": "/ntp-payment-api-doc/docs/intro"
   },
   "next": {
-    "title": "Query parameters",
-    "permalink": "/ntp-payment-api-doc/docs/start/start-query-parameters"
+    "title": "Start payment request example",
+    "permalink": "/ntp-payment-api-doc/docs/start/start-payment-ex"
   }
 }

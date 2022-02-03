@@ -1,0 +1,26 @@
+{
+  "unversionedId": "start/code-draft",
+  "id": "start/code-draft",
+  "title": "Code draft - TMP",
+  "description": "Some method test 1",
+  "source": "@site/docs/start/code-draft.md",
+  "sourceDirName": "start",
+  "slug": "/start/code-draft",
+  "permalink": "/ntp-payment-api-doc/docs/start/code-draft",
+  "editUrl": "https://github.com/navid59/ntp-payment-api-doc/docs/start/code-draft.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Errors & Statuses",
+    "permalink": "/ntp-payment-api-doc/docs/start/start-Error"
+  },
+  "next": {
+    "title": "Authorize a payment",
+    "permalink": "/ntp-payment-api-doc/docs/authorize/authorize-strc"
+  }
+}

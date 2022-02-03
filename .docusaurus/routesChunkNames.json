@@ -1,70 +1,92 @@
 {
+  "/ntp-payment-api-doc/__docusaurus/debug-a3b": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/ntp-payment-api-doc/__docusaurus/debug/config-026": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/ntp-payment-api-doc/__docusaurus/debug/content-826": {
+    "component": "component---theme-debug-contentba-8-ce7",
+    "allContent": "allContent---ntp-payment-api-doc-docusaurus-debug-content-246-6ad"
+  },
+  "/ntp-payment-api-doc/__docusaurus/debug/globalData-0da": {
+    "component": "component---theme-debug-global-dataede-0fa"
+  },
+  "/ntp-payment-api-doc/__docusaurus/debug/metadata-d68": {
+    "component": "component---theme-debug-site-metadata-68-e-3d4"
+  },
+  "/ntp-payment-api-doc/__docusaurus/debug/registry-830": {
+    "component": "component---theme-debug-registry-679-501"
+  },
+  "/ntp-payment-api-doc/__docusaurus/debug/routes-605": {
+    "component": "component---theme-debug-routes-946-699"
+  },
   "/ntp-payment-api-doc/blog/archive-03d": {
-    "component": "9e4087bc",
-    "archive": "3beda70b"
+    "component": "component---theme-blog-archive-page-9-e-4-1d8",
+    "archive": "archive---ntp-payment-api-doc-blog-archive-3-be-42d"
   },
   "/ntp-payment-api-doc/markdown-page-99d": {
-    "component": "1f391b9e",
-    "content": "393be207"
+    "component": "component---theme-mdx-page-1-f-3-b90",
+    "content": "content---ntp-payment-api-doc-markdown-page-393-d95"
   },
-  "/ntp-payment-api-doc/docs-a8e": {
-    "component": "1be78505",
-    "versionMetadata": "935f2afb"
+  "/ntp-payment-api-doc/docs-acd": {
+    "component": "component---theme-doc-page-1-be-9be",
+    "versionMetadata": "versionMetadata---ntp-payment-api-doc-docs-935-40b"
   },
   "/ntp-payment-api-doc/docs/authorize/authorize-query-parameters-052": {
-    "component": "17896441",
-    "content": "52874951"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---ntp-payment-api-doc-docs-authorize-authorize-query-parameters-528-3c4"
   },
   "/ntp-payment-api-doc/docs/authorize/authorize-response-a49": {
-    "component": "17896441",
-    "content": "a403134e"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---ntp-payment-api-doc-docs-authorize-authorize-responsea-40-114"
   },
   "/ntp-payment-api-doc/docs/authorize/authorize-strc-07c": {
-    "component": "17896441",
-    "content": "431f254d"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---ntp-payment-api-doc-docs-authorize-authorize-strc-431-3a8"
   },
   "/ntp-payment-api-doc/docs/intro-fb9": {
-    "component": "17896441",
-    "content": "0e384e19"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---ntp-payment-api-doc-docs-intro-0-e-3-109"
+  },
+  "/ntp-payment-api-doc/docs/start/code-draft-3fb": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---ntp-payment-api-doc-docs-start-code-draftc-58-cb6"
   },
   "/ntp-payment-api-doc/docs/start/start-Error-d56": {
-    "component": "17896441",
-    "content": "f075f55c"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---ntp-payment-api-doc-docs-start-start-errorf-07-f34"
   },
   "/ntp-payment-api-doc/docs/start/start-ex-response-857": {
-    "component": "17896441",
-    "content": "047a9419"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---ntp-payment-api-doc-docs-start-start-ex-response-047-199"
   },
   "/ntp-payment-api-doc/docs/start/start-payment-ex-635": {
-    "component": "17896441",
-    "content": "ba86fe8e"
-  },
-  "/ntp-payment-api-doc/docs/start/start-query-parameters-f2f": {
-    "component": "17896441",
-    "content": "56a65327"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---ntp-payment-api-doc-docs-start-start-payment-exba-8-5f4"
   },
   "/ntp-payment-api-doc/docs/start/start-strc-0a9": {
-    "component": "17896441",
-    "content": "86eac280"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---ntp-payment-api-doc-docs-start-start-strc-86-e-7fe"
   },
   "/ntp-payment-api-doc/docs/verify-auth/verify-auth-ex-016": {
-    "component": "17896441",
-    "content": "2c42e517"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---ntp-payment-api-doc-docs-verify-auth-verify-auth-ex-2-c-4-e15"
   },
   "/ntp-payment-api-doc/docs/verify-auth/verify-auth-query-parameters-d4f": {
-    "component": "17896441",
-    "content": "e21aef30"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---ntp-payment-api-doc-docs-verify-auth-verify-auth-query-parameterse-21-c67"
   },
   "/ntp-payment-api-doc/docs/verify-auth/verify-auth-response-ex-99c": {
-    "component": "17896441",
-    "content": "d71b029c"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---ntp-payment-api-doc-docs-verify-auth-verify-auth-response-exd-71-509"
   },
   "/ntp-payment-api-doc/docs/verify-auth/verify-auth-strc-c27": {
-    "component": "17896441",
-    "content": "9052c949"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---ntp-payment-api-doc-docs-verify-auth-verify-auth-strc-905-ede"
   },
   "/ntp-payment-api-doc/-70c": {
-    "component": "c4f5d8e4",
-    "config": "5e9f5e1a"
+    "component": "component---site-src-pages-index-jsc-4-f-f99",
+    "config": "config---ntp-payment-api-doc-5-e-9-c33"
   }
 }

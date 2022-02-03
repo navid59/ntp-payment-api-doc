@@ -10,9 +10,9 @@
   "editUrl": "https://github.com/navid59/ntp-payment-api-doc/docs/start/start-Error.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 5,
+  "sidebarPosition": 4,
   "frontMatter": {
-    "sidebar_position": 5
+    "sidebar_position": 4
   },
   "sidebar": "tutorialSidebar",
   "previous": {
@@ -20,7 +20,7 @@
     "permalink": "/ntp-payment-api-doc/docs/start/start-ex-response"
   },
   "next": {
-    "title": "Authorize a payment",
-    "permalink": "/ntp-payment-api-doc/docs/authorize/authorize-strc"
+    "title": "Code draft - TMP",
+    "permalink": "/ntp-payment-api-doc/docs/start/code-draft"
   }
 }

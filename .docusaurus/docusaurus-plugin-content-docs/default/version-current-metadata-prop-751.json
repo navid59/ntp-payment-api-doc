@@ -28,12 +28,6 @@
           },
           {
             "type": "link",
-            "label": "Query parameters",
-            "href": "/ntp-payment-api-doc/docs/start/start-query-parameters",
-            "docId": "start/start-query-parameters"
-          },
-          {
-            "type": "link",
             "label": "Start payment request example",
             "href": "/ntp-payment-api-doc/docs/start/start-payment-ex",
             "docId": "start/start-payment-ex"
@@ -49,6 +43,12 @@
             "label": "Errors & Statuses",
             "href": "/ntp-payment-api-doc/docs/start/start-Error",
             "docId": "start/start-Error"
+          },
+          {
+            "type": "link",
+            "label": "Code draft - TMP",
+            "href": "/ntp-payment-api-doc/docs/start/code-draft",
+            "docId": "start/code-draft"
           }
         ]
       },
@@ -137,6 +137,12 @@
       "description": "The Payments API , was designed and implemented by NETOPIA Payments development team to be used in third party applications to cover the payments process.",
       "sidebar": "tutorialSidebar"
     },
+    "start/code-draft": {
+      "id": "start/code-draft",
+      "title": "Code draft - TMP",
+      "description": "Some method test 1",
+      "sidebar": "tutorialSidebar"
+    },
     "start/start-Error": {
       "id": "start/start-Error",
       "title": "Errors & Statuses",
@@ -153,12 +159,6 @@
       "id": "start/start-payment-ex",
       "title": "Start payment request example",
       "description": "",
-      "sidebar": "tutorialSidebar"
-    },
-    "start/start-query-parameters": {
-      "id": "start/start-query-parameters",
-      "title": "Query parameters",
-      "description": "The start end-point has three main section.",
       "sidebar": "tutorialSidebar"
     },
     "start/start-strc": {

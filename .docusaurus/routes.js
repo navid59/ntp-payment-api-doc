@@ -4,6 +4,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/ntp-payment-api-doc/__docusaurus/debug',
+    component: ComponentCreator('/ntp-payment-api-doc/__docusaurus/debug','a3b'),
+    exact: true
+  },
+  {
+    path: '/ntp-payment-api-doc/__docusaurus/debug/config',
+    component: ComponentCreator('/ntp-payment-api-doc/__docusaurus/debug/config','026'),
+    exact: true
+  },
+  {
+    path: '/ntp-payment-api-doc/__docusaurus/debug/content',
+    component: ComponentCreator('/ntp-payment-api-doc/__docusaurus/debug/content','826'),
+    exact: true
+  },
+  {
+    path: '/ntp-payment-api-doc/__docusaurus/debug/globalData',
+    component: ComponentCreator('/ntp-payment-api-doc/__docusaurus/debug/globalData','0da'),
+    exact: true
+  },
+  {
+    path: '/ntp-payment-api-doc/__docusaurus/debug/metadata',
+    component: ComponentCreator('/ntp-payment-api-doc/__docusaurus/debug/metadata','d68'),
+    exact: true
+  },
+  {
+    path: '/ntp-payment-api-doc/__docusaurus/debug/registry',
+    component: ComponentCreator('/ntp-payment-api-doc/__docusaurus/debug/registry','830'),
+    exact: true
+  },
+  {
+    path: '/ntp-payment-api-doc/__docusaurus/debug/routes',
+    component: ComponentCreator('/ntp-payment-api-doc/__docusaurus/debug/routes','605'),
+    exact: true
+  },
+  {
     path: '/ntp-payment-api-doc/blog/archive',
     component: ComponentCreator('/ntp-payment-api-doc/blog/archive','03d'),
     exact: true
@@ -15,7 +50,7 @@ export default [
   },
   {
     path: '/ntp-payment-api-doc/docs',
-    component: ComponentCreator('/ntp-payment-api-doc/docs','a8e'),
+    component: ComponentCreator('/ntp-payment-api-doc/docs','acd'),
     routes: [
       {
         path: '/ntp-payment-api-doc/docs/authorize/authorize-query-parameters',
@@ -42,6 +77,12 @@ export default [
         'sidebar': "tutorialSidebar"
       },
       {
+        path: '/ntp-payment-api-doc/docs/start/code-draft',
+        component: ComponentCreator('/ntp-payment-api-doc/docs/start/code-draft','3fb'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
         path: '/ntp-payment-api-doc/docs/start/start-Error',
         component: ComponentCreator('/ntp-payment-api-doc/docs/start/start-Error','d56'),
         exact: true,
@@ -56,12 +97,6 @@ export default [
       {
         path: '/ntp-payment-api-doc/docs/start/start-payment-ex',
         component: ComponentCreator('/ntp-payment-api-doc/docs/start/start-payment-ex','635'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/ntp-payment-api-doc/docs/start/start-query-parameters',
-        component: ComponentCreator('/ntp-payment-api-doc/docs/start/start-query-parameters','f2f'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },

@@ -10,14 +10,14 @@
   "editUrl": "https://github.com/navid59/ntp-payment-api-doc/docs/start/start-payment-ex.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 3,
+  "sidebarPosition": 2,
   "frontMatter": {
-    "sidebar_position": 3
+    "sidebar_position": 2
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Query parameters",
-    "permalink": "/ntp-payment-api-doc/docs/start/start-query-parameters"
+    "title": "Getting start a payment",
+    "permalink": "/ntp-payment-api-doc/docs/start/start-strc"
   },
   "next": {
     "title": "Start response example",

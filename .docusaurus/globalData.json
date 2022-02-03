@@ -31,6 +31,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "start/code-draft",
+              "path": "/ntp-payment-api-doc/docs/start/code-draft",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "start/start-Error",
               "path": "/ntp-payment-api-doc/docs/start/start-Error",
               "sidebar": "tutorialSidebar"
@@ -43,11 +48,6 @@
             {
               "id": "start/start-payment-ex",
               "path": "/ntp-payment-api-doc/docs/start/start-payment-ex",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "start/start-query-parameters",
-              "path": "/ntp-payment-api-doc/docs/start/start-query-parameters",
               "sidebar": "tutorialSidebar"
             },
             {

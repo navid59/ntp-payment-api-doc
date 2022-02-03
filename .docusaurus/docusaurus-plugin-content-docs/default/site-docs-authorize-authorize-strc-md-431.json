@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Errors & Statuses",
-    "permalink": "/ntp-payment-api-doc/docs/start/start-Error"
+    "title": "Code draft - TMP",
+    "permalink": "/ntp-payment-api-doc/docs/start/code-draft"
   },
   "next": {
     "title": "Query parameters",
