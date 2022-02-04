@@ -20,8 +20,6 @@ You should have a merchant account with NETOPIA. If you dont yet have one, start
 ### NETOPIA Payments administration platform
 Login with your username/password to **[administration console](https://admin.netopia-payments.com/)**. From here you'll be able to configure your account, monitor incoming transactions, add users, etc.
 
-You should have at least one
-
 NETOPIA gives you the possibility to test the payment process during or after the implemention of your application too by providing a sandbox environment which mirrors the features of production. It can be accessed directly from your production account or by logging in to **[sandbox](https://sandbox.netopia-payments.com)**.
 
 
