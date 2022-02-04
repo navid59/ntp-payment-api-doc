@@ -4,34 +4,26 @@ sidebar_position: 1
 
 # Introduction
 
-The **Payments API** , was designed and implemented by NETOPIA Payments development team to be used in third party applications to cover the payments process.
+The **Payments API**  was designed and implemented by NETOPIA Payments development team to be used in third party applications to cover the payment process.
 
 ## Why NETOPIA Payments API
 -   Fast and Secure
--   Fully support of 3DS cards
+-   Full support for 3DSecure authentication
 -   Easy to integrate with any third party application 
--   7/24 support
+-   Stellar support
 
-## Get READY
+## Prerequisites
 
-Get started by **creating a account** in **[NETOPIA Payments](https://netopia-payments.com/register/)** platform.
+You should have a merchant account with NETOPIA. If you dont yet have one, start by **[creating it](https://netopia-payments.com/register/)**.
 
 
 ### NETOPIA Payments administration platform
-Once you register, NETOPIA Payments give you access to administration platform.
-From administration platform you will be able to manage / monitorize all your transactions & accounts.
+Login with your username/password to **[administration console](https://admin.netopia-payments.com/)**. From here you'll be able to configure your account, monitor incoming transactions, add users, etc.
 
-The platform give you possibility to test your the payment process deurting / after implemention of your application too
-   
--   ##### Live section
-    ```
-    https://admin.netopia-payments.com/
-    ```
+You should have at least one
 
--   ##### Sandbox section
-    ```
-    https://sandbox.netopia-payments.com
-    ```
+NETOPIA gives you the possibility to test the payment process during or after the implemention of your application too by providing a sandbox environment which mirrors the features of production. It can be accessed directly from your production account or by logging in to **[sandbox](https://sandbox.netopia-payments.com)**.
+
 
 ### API KEY
 In order to communicate with payment API, you need a specific **API KEY**
@@ -41,14 +33,14 @@ From NETOPIA **[Payments admin](https://admin.netopia-payments.com/)** -> Profil
 ![Example banner](/img/apiKey.jpg)
 
 **Note:** 
--   Alwayse the API KEY should pass in **HTTP HEADER** of your request 
--   In any time you are allowed to regenerate / remove / Add new API KEY
+-   You shoyld always pass the API KEY in the **HTTP Headers** of your request 
+-   You can regenerate/remove/add a new API Key at any time
 
-By having an **_ACTIVE ACCOUNT_** and a **_API KEY_**, you are almost ready to start actual payment via **NETOPIA Payments API**
+Once you have an **_ACTIVE ACCOUNT_** and an **_API KEY_**, you are almost ready to start actual payments via **NETOPIA Payments' API**
 
 
 ## Payments OpenAPI Specification
-At the following link is shared the **openapi 3.0 specification** to have bigger image if you need more detales about NETOPIA Payment API 
+Following the link below you can find the **openapi 3.0 specification** to have bigger picture on NETOPIA Payments' API 
 
 ```
 https://secure.sandbox.netopia-payments.com/spec
