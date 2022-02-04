@@ -9,8 +9,16 @@ import TabItem from '@theme/TabItem';
 ## Some method test 1
 :::tip Group 1
 <Tabs groupId="operating-systems">
-  <TabItem value="win" label="Windows">Lorem 1 - Use Ctrl + C to copy.</TabItem>
-  <TabItem value="mac" label="MacOS">Lorem 1 - Use Command + C to copy.</TabItem>
+  <TabItem value="curl" label="CurlRequest">
+  ```
+  aaaaaaaa
+  ```
+  </TabItem>
+  <TabItem value="php" label="PhpRequest">
+  ```
+  bbb
+  ```
+  </TabItem>
 </Tabs>
 :::
 
@@ -19,8 +27,12 @@ import TabItem from '@theme/TabItem';
 ## Some method test 2
 :::caution Group 2
 <Tabs groupId="operating-systems">
-  <TabItem value="win" label="Windows">Lorem 2 - Use Ctrl + V to paste.</TabItem>
-  <TabItem value="mac" label="MacOS">Lorem 2 - Use Command + V to paste.</TabItem>
+  <TabItem value="curl" label="CurlRequest">Lorem 2 - Use Ctrl + V to paste.</TabItem>
+  <TabItem value="php" label="PhpRequest">
+  ```
+  bbb
+  ```
+  </TabItem>
 </Tabs>
 :::
 
@@ -29,8 +41,12 @@ import TabItem from '@theme/TabItem';
 ## Some method test 3
 :::info Group 3
 <Tabs groupId="operating-systems">
-  <TabItem value="win" label="Windows">Lorem 3 - Use Ctrl + V to paste.</TabItem>
-  <TabItem value="mac" label="MacOS">Lorem 3 - Use Command + V to paste.</TabItem>
+  <TabItem value="curl" label="CurlRequest">Lorem 3 - Use Ctrl + V to paste.</TabItem>
+  <TabItem value="php" label="PhpRequest">
+  ```
+  bbb
+  ```
+  </TabItem>
 </Tabs>
 :::
 
