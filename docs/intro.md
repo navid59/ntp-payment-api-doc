@@ -24,7 +24,7 @@ NETOPIA gives you the possibility to test the payment process during or after th
 
 
 ### API KEY
-In order to communicate with payment API, you need a specific **API KEY**
+In order to communicate with the payment API, you need a specific **API KEY**
 
 From NETOPIA **[Payments admin](https://admin.netopia-payments.com/)** -> Profile -> Security, you can generate an **API KEY**
 
