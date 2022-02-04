@@ -34,7 +34,7 @@ From NETOPIA **[Payments admin](https://admin.netopia-payments.com/)** -> Profil
 -   You shoyld always pass the API KEY in the **HTTP Headers** of your request 
 -   You can regenerate/remove/add a new API Key at any time
 
-Once you have an **_ACTIVE ACCOUNT_** and an **_API KEY_**, you are almost ready to start actual payments via **NETOPIA Payments' API**
+Once you have an **_ACTIVE ACCOUNT_** and an **_API KEY_**, you are almost ready to [start](start/start-strc.md) actual payments via **NETOPIA Payments' API**
 
 
 ## Payments OpenAPI Specification
