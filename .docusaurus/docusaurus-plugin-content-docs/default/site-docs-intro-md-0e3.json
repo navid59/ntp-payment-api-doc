@@ -2,7 +2,7 @@
   "unversionedId": "intro",
   "id": "intro",
   "title": "Introduction",
-  "description": "The Payments API , was designed and implemented by NETOPIA Payments development team to be used in third party applications to cover the payments process.",
+  "description": "The Payments API  was designed and implemented by NETOPIA Payments development team to be used in third party applications to cover the payment process.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
