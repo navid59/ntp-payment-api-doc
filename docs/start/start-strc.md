@@ -6,7 +6,7 @@ sidebar_position: 1
 To initiate a new payment, you will begin from the **start** end-point.
 With the help of this  end-point you will send full details of a single transaction to NETOPIA Payments' server.
 
-Based on the **start end-point response** you will need to continue the transaction process up to state **completed**/**confirmed** .
+Based on the **start** end-point **response** you will need to continue the transaction process up to state **completed**/**confirmed** .
 
 ## Start a payment endpoint
 ```
@@ -15,7 +15,7 @@ https://secure.sandbox.netopia-payments.com/payment/card/start
 
 ## Query parameters
 
-The **start end-point** has three main section.
+The **start end-point** has three main sections.
 **config**, **payment** and **order**.
 
 <details><summary>Query parameters (quick ​view) </summary>
