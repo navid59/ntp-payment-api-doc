@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Starting a payment
 To initiate a new payment, you will begin from the **start** end-point.
-With the help of this start end-point you send full details of a single transaction to NETOPIA Payments' server.
+With the help of this  end-point you will send full details of a single transaction to NETOPIA Payments' server.
 
 Based on the **start end-point response** you will need to continue the transaction process up to state **completed**/**confirmed** .
 
