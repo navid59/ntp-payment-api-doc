@@ -2,13 +2,13 @@
 sidebar_position: 1
 ---
 
-# Getting start a payment
-To getting start a new payment, the process will start from **start** end-point.
-By getting help of strat end-point you send full details of any single transaction to NETOPIA Payments server.
+# Starting a payment
+To initiate a new payment, you will begin from the **start** end-point.
+With the help of this start end-point you send full details of a single transaction to NETOPIA Payments' server.
 
-So base on **start end-point response** you will need to countin the transaction progress up to be **completed**/**confirmed** .
+Based on the **start end-point response** you will need to continue the transaction process up to state **completed**/**confirmed** .
 
-## Start a payment URL
+## Start a payment endpoint
 ```
 https://secure.sandbox.netopia-payments.com/payment/card/start
 ```
