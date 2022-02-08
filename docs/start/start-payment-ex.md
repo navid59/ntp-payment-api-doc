@@ -107,7 +107,7 @@ import TabItem from '@theme/TabItem';
   </TabItem>
   <TabItem value="curl" label="Curl Request">
 
-  ```
+  ```shell
   curl --location --request POST 'https://secure.sandbox.netopia-payments.com/payment/card/start' \
 --header 'Authorization: YourApiKeyFromNETOPIA-PaymentsAdminPANEL--YourUNICHETOKEN' \
 --data-raw '{
@@ -204,7 +204,7 @@ import TabItem from '@theme/TabItem';
   </TabItem>
   <TabItem value="php" label="Php Request">
 
-  ```
+  ```php
   <?php
 
 $curl = curl_init();
