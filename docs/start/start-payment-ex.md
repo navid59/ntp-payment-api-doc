@@ -54,7 +54,7 @@ import TabItem from '@theme/TabItem';
   },
   "order": {
     "ntpID": "",
-    "posSignature": "LXTP-3WDM-WVXL-GC8B-Y5DA",
+    "posSignature": "RAND-OM01-SIGN-TURE-3POS",
     "dateTime": "2019-08-24T14:15:22Z",
     "description": "Order Desc",
     "orderID": "stringOrderIDdddfgdfg3323",
@@ -258,7 +258,7 @@ curl_setopt_array($curl, array(
   },
   "order": {
     "ntpID": "",
-    "posSignature": "LXTP-3WDM-WVXL-GC8B-Y5DA",
+    "posSignature": "RAND-OM01-SIGN-TURE-3POS",
     "dateTime": "2019-08-24T14:15:22Z",
     "description": "Order Desc",
     "orderID": "stringOrderID4694",
