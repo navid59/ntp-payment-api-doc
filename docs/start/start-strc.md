@@ -8,9 +8,103 @@ With the help of this  end-point you will send full details of a single transact
 
 Based on the **start** end-point **response** you will need to continue the transaction process up to state **completed**/**confirmed** .
 
-## Start a payment endpoint
+## Start payment endpoint
 ```
 https://secure.sandbox.netopia-payments.com/payment/card/start
+```
+
+## Start payment request structure  
+
+```
+{
+  "config": {
+    "emailTemplate": "string",
+    "notifyUrl": "string",
+    "redirectUrl": "string",
+    "language": "string"
+  },
+  "payment": {
+    "options": {
+      "installments": int,
+      "bonus": int
+    },
+    "instrument": {
+      "type": "string",
+      "account": "string",
+      "expMonth": int,
+      "expYear": int,
+      "secretCode": "string",
+      "token": "string"
+    },
+    "data": {
+      "BROWSER_USER_AGENT": "string",
+      "OS": "string",
+      "OS_VERSION": "string",
+      "MOBILE": "string",
+      "SCREEN_POINT": "string",
+      "SCREEN_PRINT": "string",
+      "BROWSER_COLOR_DEPTH": "string",
+      "BROWSER_SCREEN_HEIGHT": "string",
+      "BROWSER_SCREEN_WIDTH": "string",
+      "BROWSER_PLUGINS": "string",
+      "BROWSER_JAVA_ENABLED": "string",
+      "BROWSER_LANGUAGE": "string",
+      "BROWSER_TZ": "string",
+      "BROWSER_TZ_OFFSET": "string",
+      "IP_ADDRESS": "string"
+    }
+  },
+  "order": {
+    "ntpID": "string",
+    "posSignature": "string",
+    "dateTime": "string",
+    "description": "string",
+    "orderID": "string",
+    "amount": float,
+    "currency": "string",
+    "billing": {
+      "email": "string",
+      "phone": "string",
+      "firstName": "string",
+      "lastName": "string",
+      "city": "string",
+      "country": int,
+      "state": "string",
+      "postalCode": "string",
+      "details": "string"
+    },
+    "shipping": {
+      "email": "string",
+      "phone": "string",
+      "firstName": "string",
+      "lastName": "string",
+      "city": "string",
+      "country": int,
+      "state": "string",
+      "postalCode": "string",
+      "details": "string"
+    },
+    "products": [
+      {
+        "name": "string",
+        "code": "string",
+        "category": "string",
+        "price": int,
+        "vat": int
+      }
+    ],
+    "installments": {
+      "selected": 0,
+      "available": [
+        0
+      ]
+    },
+    "data": {
+      "property1": "string",
+      "property2": "string"
+    }
+  }
+}
 ```
 
 ## Query parameters
@@ -18,17 +112,15 @@ https://secure.sandbox.netopia-payments.com/payment/card/start
 The **start end-point** has three main sections.
 **config**, **payment** and **order**.
 
-<details><summary>Query parameters (quick ​view) </summary>
+<details><summary>Query parameters (overview) </summary>
 
-#### Query parameters quick ​view
-
--   **config** : The general configuration
+-   **config** : General configuration
     -   **emailTemplate** : The template name of email notification
     -   **notifyUrl** : The Merchant Notify URL
     -   **redirectUrl** : The call back URL
     -   **language** : The Languge
 
--   **payment** : 
+-   **payment** : Data related to the payment itself
     -   **options** : 
       - **installments** :
       - **bonus** : 
@@ -39,7 +131,7 @@ The **start end-point** has three main sections.
         -   **expYear** : Card expire year
         -   **secretCode** : Card CCV2 number
         -   **token** : The Payment token
-      - **data** : The general information of the device used for make online payment
+      - **data** : General information on the device used to make the payment
         -   **BROWSER_USER_AGENT** : 
         -   **OS** : 
         -   **OS_VERSION** : 
@@ -105,7 +197,7 @@ The **start end-point** has three main sections.
 </details>
 
 
-In following explain each of them: 
+Below you may find details on each of them: 
 
 -   **config** : The general configuration
 
@@ -223,97 +315,3 @@ In following explain each of them:
         | **property1** | string  | Extera data to send          | &cross; | Merchant |
         | **property2** | string  | Extera data to send          | &cross; | Merchant |
 
-
-## Start a payment request structure  
-
-```
-{
-  "config": {
-    "emailTemplate": "string",
-    "notifyUrl": "string",
-    "redirectUrl": "string",
-    "language": "string"
-  },
-  "payment": {
-    "options": {
-      "installments": int,
-      "bonus": int
-    },
-    "instrument": {
-      "type": "string",
-      "account": "string",
-      "expMonth": int,
-      "expYear": int,
-      "secretCode": "string",
-      "token": "string"
-    },
-    "data": {
-      "BROWSER_USER_AGENT": "string",
-      "OS": "string",
-      "OS_VERSION": "string",
-      "MOBILE": "string",
-      "SCREEN_POINT": "string",
-      "SCREEN_PRINT": "string",
-      "BROWSER_COLOR_DEPTH": "string",
-      "BROWSER_SCREEN_HEIGHT": "string",
-      "BROWSER_SCREEN_WIDTH": "string",
-      "BROWSER_PLUGINS": "string",
-      "BROWSER_JAVA_ENABLED": "string",
-      "BROWSER_LANGUAGE": "string",
-      "BROWSER_TZ": "string",
-      "BROWSER_TZ_OFFSET": "string",
-      "IP_ADDRESS": "string"
-    }
-  },
-  "order": {
-    "ntpID": "string",
-    "posSignature": "string",
-    "dateTime": "string",
-    "description": "string",
-    "orderID": "string",
-    "amount": float,
-    "currency": "string",
-    "billing": {
-      "email": "string",
-      "phone": "string",
-      "firstName": "string",
-      "lastName": "string",
-      "city": "string",
-      "country": int,
-      "state": "string",
-      "postalCode": "string",
-      "details": "string"
-    },
-    "shipping": {
-      "email": "string",
-      "phone": "string",
-      "firstName": "string",
-      "lastName": "string",
-      "city": "string",
-      "country": int,
-      "state": "string",
-      "postalCode": "string",
-      "details": "string"
-    },
-    "products": [
-      {
-        "name": "string",
-        "code": "string",
-        "category": "string",
-        "price": int,
-        "vat": int
-      }
-    ],
-    "installments": {
-      "selected": 0,
-      "available": [
-        0
-      ]
-    },
-    "data": {
-      "property1": "string",
-      "property2": "string"
-    }
-  }
-}
-```
