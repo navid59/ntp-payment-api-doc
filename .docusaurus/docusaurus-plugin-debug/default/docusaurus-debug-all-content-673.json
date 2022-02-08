@@ -114,7 +114,7 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Getting start a payment",
+                "title": "Starting a payment",
                 "permalink": "/ntp-payment-api-doc/docs/start/start-strc"
               }
             },
@@ -214,7 +214,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Getting start a payment",
+                "title": "Starting a payment",
                 "permalink": "/ntp-payment-api-doc/docs/start/start-strc"
               },
               "next": {
@@ -225,8 +225,8 @@
             {
               "unversionedId": "start/start-strc",
               "id": "start/start-strc",
-              "title": "Getting start a payment",
-              "description": "To getting start a new payment, the process will start from start end-point.",
+              "title": "Starting a payment",
+              "description": "To initiate a new payment, you will begin from the start end-point.",
               "source": "@site/docs/start/start-strc.md",
               "sourceDirName": "start",
               "slug": "/start/start-strc",

@@ -22,7 +22,7 @@
         "items": [
           {
             "type": "link",
-            "label": "Getting start a payment",
+            "label": "Starting a payment",
             "href": "/ntp-payment-api-doc/docs/start/start-strc",
             "docId": "start/start-strc"
           },
@@ -163,8 +163,8 @@
     },
     "start/start-strc": {
       "id": "start/start-strc",
-      "title": "Getting start a payment",
-      "description": "To getting start a new payment, the process will start from start end-point.",
+      "title": "Starting a payment",
+      "description": "To initiate a new payment, you will begin from the start end-point.",
       "sidebar": "tutorialSidebar"
     },
     "verify-auth/verify-auth-ex": {

@@ -17,6 +17,7 @@ sidebar_position: 4
 
 ## Status codes
 
--   **15** : need authorize
 -   **3** : is paid
 -   **5** : is confirmed
+-   **12** : Invalid Account
+-   **15** : need authorize
