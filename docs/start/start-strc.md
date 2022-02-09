@@ -9,6 +9,13 @@ With the help of this  end-point you will send full details of a single transact
 Based on the **start** end-point **response** you will need to continue the transaction process up to state **completed**/**confirmed** .
 
 ## Start payment endpoint
+
+### Live/production mode
+```
+https://to.be.filled
+```
+
+### Sandbox/test mode
 ```
 https://secure.sandbox.netopia-payments.com/payment/card/start
 ```
@@ -201,117 +208,117 @@ Below you may find details on each of them:
 
 -   **config** : The general configuration
 
-    | Variable   | Type   | Description | M | Belong to |
+    | Variable   | Type   | Description | Required | Belong to |
     | :---       | :----: | :----      |      :----: |     ---: |
-    | **emailTemplate** | string | The template name of email notification | &check; | Operator |
-    | **notifyUrl**     | string | The Merchant Notify URL                 | &check; | Merchant |
-    | **redirectUrl**   | string | The call back URL                       | &check; | Merchant |
-    | **language**      | string | The Languge                             | &check; | Merchant |
+    | **emailTemplate** | string | The template name of email notification | Yes | Operator |
+    | **notifyUrl**     | string | The Merchant Notify URL                 | Yes | Merchant |
+    | **redirectUrl**   | string | The call back URL                       | Yes | Merchant |
+    | **language**      | string | The Languge                             | Yes | Merchant |
 
 
 
 -   **payment** : 
     -   **options** :
 
-        | Variable          | Type    | Description | M | Belong to |
+        | Variable          | Type    | Description | Required | Belong to |
         | :---              | :----:  | :----       | :----: | ---: |
-        | **installments**  | integer  | --- | &check; | Operator |
-        | **bonus**         | integer  | --- | &cross; | Operator |
+        | **installments**  | integer  | --- | Yes | Operator |
+        | **bonus**         | integer  | --- | No | Operator |
       
       - **instrument**: instrument of payment
 
-        | Variable       | Type    | Description | M | Belong to |
+        | Variable       | Type    | Description | Required | Belong to |
         | :---           | :----:  | :----       | :----: | ---: |
-        | **type**       | string  | Method of payment ex. Card | &check; | Client |
-        | **account**    | string  | Card number                | &check; | Client |
-        | **expMonth**   | integer | Card expire month          | &check; | Client |
-        | **expYear**    | integer | Card expire year           | &check; | Client |
-        | **secretCode** | string  | Card CCV2 number           | &check; | Client |
-        | **token**      | string  | The Payment token          | &cross; | Operator |
+        | **type**       | string  | Method of payment ex. Card | Yes | Client |
+        | **account**    | string  | Card number                | Yes | Client |
+        | **expMonth**   | integer | Card expire month          | Yes | Client |
+        | **expYear**    | integer | Card expire year           | Yes | Client |
+        | **secretCode** | string  | Card CCV2 number           | Yes | Client |
+        | **token**      | string  | The Payment token          | No | Operator |
 
       - **data** : The general information of the device used for make online payment
       
-        | Variable                  | Type    | Description | M | Belong to |
+        | Variable                  | Type    | Description | Required | Belong to |
         | :---                      | :----:  | :----       | :----:  |   ---: |
-        | **BROWSER_USER_AGENT**    | string  | ---         | &cross; | Client |
-        | **OS**                    | string  | ---         | &cross; | Client |
-        | **OS_VERSION**            | string  | ---         | &cross; | Client |
-        | **MOBILE**                | string  | ---         | &cross; | Client |
-        | **SCREEN_POINT**          | string  | ---         | &cross; | Client |
-        | **SCREEN_PRINT**          | string  | ---         | &cross; | Client |
-        | **BROWSER_COLOR_DEPTH**   | string  | ---         | &cross; | Client |
-        | **BROWSER_SCREEN_HEIGHT** | string  | ---         | &cross; | Client |
-        | **BROWSER_SCREEN_WIDTH**  | string  | ---         | &cross; | Client |
-        | **BROWSER_PLUGINS**       | string  | ---         | &cross; | Client |
-        | **BROWSER_JAVA_ENABLED**  | string  | ---         | &cross; | Client |
-        | **BROWSER_LANGUAGE**      | string  | ---         | &cross; | Client |
-        | **BROWSER_TZ**            | string  | ---         | &cross; | Client |
-        | **BROWSER_TZ_OFFSET**     | string  | ---         | &cross; | Client |
-        | **IP_ADDRESS**            | string  | ---         | &cross; | Client |
+        | **BROWSER_USER_AGENT**    | string  | ---         | No | Client |
+        | **OS**                    | string  | ---         | No | Client |
+        | **OS_VERSION**            | string  | ---         | No | Client |
+        | **MOBILE**                | string  | ---         | No | Client |
+        | **SCREEN_POINT**          | string  | ---         | No | Client |
+        | **SCREEN_PRINT**          | string  | ---         | No | Client |
+        | **BROWSER_COLOR_DEPTH**   | string  | ---         | No | Client |
+        | **BROWSER_SCREEN_HEIGHT** | string  | ---         | No | Client |
+        | **BROWSER_SCREEN_WIDTH**  | string  | ---         | No | Client |
+        | **BROWSER_PLUGINS**       | string  | ---         | No | Client |
+        | **BROWSER_JAVA_ENABLED**  | string  | ---         | No | Client |
+        | **BROWSER_LANGUAGE**      | string  | ---         | No | Client |
+        | **BROWSER_TZ**            | string  | ---         | No | Client |
+        | **BROWSER_TZ_OFFSET**     | string  | ---         | No | Client |
+        | **IP_ADDRESS**            | string  | ---         | No | Client |
 
 -   **order**: Order details
 
-      | Variable          | Type    | Description | M | Belong to |
+      | Variable          | Type    | Description | Required | Belong to |
       | :---              | :----:  | :----       | :----:  |   ---: |
-      | **ntpID**         | string  | The ntpID in an unique code per transaction generated by NETOPIA Payments. Set it as **Empty string** for start request| &cross; | Operator |
-      | **posSignature**  | string  | Signature ID             | &check; | Merchant |
-      | **dateTime**      | string  | Order date-time          | &check; | Merchant |
-      | **description**   | string  | Order description        | &check; | Merchant |
-      | **orderID**       | string  | Order unique ID          | &check; | Merchant |
-      | **amount**        | float   | The total payment amount | &check; | Merchant |
-      | **currency**      | string  | The currency code        | &check; | Merchant |
+      | **ntpID**         | string  | The ntpID in an unique code per transaction generated by NETOPIA Payments. Set it as **Empty string** for start request| No | Operator |
+      | **posSignature**  | string  | Signature ID             | Yes | Merchant |
+      | **dateTime**      | string  | Order date-time          | Yes | Merchant |
+      | **description**   | string  | Order description        | Yes | Merchant |
+      | **orderID**       | string  | Order unique ID          | Yes | Merchant |
+      | **amount**        | float   | The total payment amount | Yes | Merchant |
+      | **currency**      | string  | The currency code        | Yes | Merchant |
 
     -   **billing**: The shipping data 
 
-        | Variable       | Type    | Description | M | Belong to |
+        | Variable       | Type    | Description | Required | Belong to |
         | :---           | :----:  | :----       | :----:  |   ---: |
-        | **email**      | string  | goods bill reciver email address  | &check; | Client |
-        | **phone**      | string  | goods bill reciver phone number   | &check; | Client |
-        | **firstName**  | string  | goods bill reciver name           | &check; | Client |
-        | **lastName**   | string  | goods bill reciver last name      | &check; | Client |
-        | **city**       | string  | The shipping city                 | &check; | Client |
-        | **country**    | integer | The country code                  | &check; | Client |
-        | **state**      | string  | The state of country              | &check; | Client |
-        | **postalCode** | string  | Zip code                          | &check; | Client |
-        | **details**    | string  | Extera data / comment for billing | &check; | Client |
+        | **email**      | string  | goods bill reciver email address  | Yes | Client |
+        | **phone**      | string  | goods bill reciver phone number   | Yes | Client |
+        | **firstName**  | string  | goods bill reciver name           | Yes | Client |
+        | **lastName**   | string  | goods bill reciver last name      | Yes | Client |
+        | **city**       | string  | The shipping city                 | Yes | Client |
+        | **country**    | integer | The country code                  | Yes | Client |
+        | **state**      | string  | The state of country              | Yes | Client |
+        | **postalCode** | string  | Zip code                          | Yes | Client |
+        | **details**    | string  | Extera data / comment for billing | Yes | Client |
         
     -   **shipping**: The shipping data 
         
-        | Variable                 | Type    | Description | M | Belong to |
+        | Variable                 | Type    | Description | Required | Belong to |
         | :---                     | :----:  | :----       | :----: |   ---: |
-        | **email**      | string  | goods reciver email address        | &check; | Client |
-        | **phone**      | string  | goods reciver phone number         | &check; | Client |
-        | **firstName**  | string  | goods reciver name                 | &check; | Client |
-        | **lastName**   | string  | goods reciver last name            | &check; | Client |
-        | **city**       | string  | The shipping city                  | &check; | Client |
-        | **country**    | integer | The country code                   | &check; | Client |
-        | **state**      | string  | The state of country               | &check; | Client |
-        | **postalCode** | string  | Zip code                           | &check; | Client |
-        | **details**    | string  | Extera data / comment for shipping | &check; | Client |
+        | **email**      | string  | goods reciver email address        | Yes | Client |
+        | **phone**      | string  | goods reciver phone number         | Yes | Client |
+        | **firstName**  | string  | goods reciver name                 | Yes | Client |
+        | **lastName**   | string  | goods reciver last name            | Yes | Client |
+        | **city**       | string  | The shipping city                  | Yes | Client |
+        | **country**    | integer | The country code                   | Yes | Client |
+        | **state**      | string  | The state of country               | Yes | Client |
+        | **postalCode** | string  | Zip code                           | Yes | Client |
+        | **details**    | string  | Extera data / comment for shipping | Yes | Client |
            
     
     -   **products**: An array of products in cart
 
-        | Variable     | Type    | Description               | M | Belong to |
+        | Variable     | Type    | Description               | Required | Belong to |
         | :---         | :----:  | :----                     | :----: |   ---: |
-        | **name**:    | string  | The product name          | &cross; | Merchant |
-        | **code**:    | string  | The product unique code   | &cross; | Merchant |
-        | **category** | string  | The product category name | &cross; | Merchant |
-        | **price**    | string  | The product price         | &cross; | Merchant |
-        | **vat**      | string  | The product VAT           | &cross; | Merchant |
+        | **name**:    | string  | The product name          | No | Merchant |
+        | **code**:    | string  | The product unique code   | No | Merchant |
+        | **category** | string  | The product category name | No | Merchant |
+        | **price**    | string  | The product price         | No | Merchant |
+        | **vat**      | string  | The product VAT           | No | Merchant |
     
     
     -   **installments** : 
 
-        | Variable      | Type   | Description | M | Belong to |
+        | Variable      | Type   | Description | Required | Belong to |
         | :---          | :----: | :----       | :----:  | ---: |
-        | **selected**  | string | ---         | &check; | Operator |
-        | **available** | string | ---         | &check; | Operator |
+        | **selected**  | string | ---         | Yes | Operator |
+        | **available** | string | ---         | Yes | Operator |
 
     -   **data**: A set of extera data if you need
 
-        | Variable      | Type    | Description                  | M | Belong to |
+        | Variable      | Type    | Description                  | Required | Belong to |
         | :---          | :----:  | :----                        | :----: |   ---: |
-        | **property1** | string  | Extera data to send          | &cross; | Merchant |
-        | **property2** | string  | Extera data to send          | &cross; | Merchant |
+        | **property1** | string  | Extera data to send          | No | Merchant |
+        | **property2** | string  | Extera data to send          | No | Merchant |
 
