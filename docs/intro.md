@@ -28,7 +28,7 @@ In order to communicate with the payment API, you need a specific **API KEY**
 
 From NETOPIA **[Payments admin](https://admin.netopia-payments.com/)** -> Profile -> Security, you can generate an **API KEY**
 
-![Example banner](/img/apiKey.jpg)
+![Example API Key](/img/apiKey.jpg)
 
 **Note:** 
 -   You shoyld always pass the API KEY in the **HTTP Headers** of your request 
@@ -36,6 +36,8 @@ From NETOPIA **[Payments admin](https://admin.netopia-payments.com/)** -> Profil
 
 Once you have an **_ACTIVE ACCOUNT_** and an **_API KEY_**, you are almost ready to [start](start/start-strc.md) actual payments via **NETOPIA Payments' API**
 
+## API Diagram
+![Api diagram](/img/ApiDiagram.svg)
 
 ## Payments OpenAPI Specification
 Following the link below you can find the **openapi 3.0 specification** to have bigger picture on NETOPIA Payments' API 
